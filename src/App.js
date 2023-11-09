@@ -17,7 +17,7 @@ export default function App() {
   const testClick = useTestClick();
 
   const todos = useSelector((state) => {
-    state.currentTodo;
+    return state.todo.currentTodo;
   });
   console.log(todos);
 
